@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#info_box {
+    position: absolute;
+    opacity: 0;
+    top: 10%;
+    left: 10%;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    backdrop-filter: blur(4px);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
