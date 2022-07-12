@@ -119,7 +119,7 @@ class Star extends Body
     update() {
         super.update();
         this.light.position.set(this.position.x, this.position.y, this.position.z);
-        console.log(this.lensflare);
+        //console.log(this.lensflare);
         this.effectComposer.render(0.1);
     }
 }
